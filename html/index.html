@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>YunJeong's Portfolio</title>
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/vendor.css">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="https://kit.fontawesome.com/fbd170e696.js"></script>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon.ico">
+</head>
+
+<body>
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div id="top" class="s-wrap site-wrapper">
+
+        <header class="s-header">
+
+            <div class="header__top">
+                <div class="header__logo">
+                    <a class="site-logo" href="index.html">
+                        <img src="../img/logo.png" alt="Homepage">
+                    </a>
+                </div>
+            </div>
+            <nav class="header__nav-wrap">
+
+                <ul class="header__nav">
+                    <li class="current"><a href="index.html" title="">Home</a></li>
+                    <li class="has-children">
+                        <a title="" class="">Projects</a>
+                        <ul class="sub-menu" style="display: none;">
+                            <li><a href="./Dedicats.html">Dedicats</a></li>
+                            <li><a href="./InSSa.html">InSSA</a></li>
+                            <li><a href="./Eeum.html">Eeum</a></li>
+                            <li><a href="./FarmerRecipe.html">Farmer Recipe</a></li>
+                        </ul>
+                    </li>
+                </ul> <!-- end header__nav -->
+
+                <ul class="header__social">
+                    <li class="ss-facebook">
+                        <a href="https://github.com/melangyun">
+                            <span class="screen-reader-text">github</span>
+                        </a>
+                    </li>
+                    <li class="ss-twitter">
+                        <a href="https://messycode.tistory.com">
+                            <span class="screen-reader-text">blog</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+
+
+
+        </header>
+
+        <!-- site content
+        ================================================== -->
+        <div class="s-content content">
+            <div class="row section-intro add-bottom">
+                <div class="column large-full">
+                    <div class="row">
+                        <div class="column large-3 tab-full">
+                            <img src="../img/self.jpg">
+                        </div>
+                        <div class="column large-8 tab-full">
+                            <h1 class="display-1">최윤정</h1>
+                            <h2 style="margin-top: 0;">Jr.Back-end Developer</h2>
+                            <h3 style="margin-top: 0;">커뮤니케이션을 가장 중요하게 생각하는 개발자</h3>
+                            <h3>Contact me</h3>
+                            <a href="#" style="color:black"></a><i class="far fa-envelope">
+                                melangyun@gmail.com</i></a><br>
+                            <a href="https://github.com/melangyun" style="color:black"><i class="fab fa-github">
+                                    github.com/melangyun</i></a><br>
+                            <a href="https://messycode.tistory.com" style="color:black"><i
+                                    class="far fa-kiss-wink-heart"> messycode.tistory.com</i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row section-intro add-bottom" style="margin-top: 10rem;">
+                <div class="column large-full">
+                    <h1 class="display-1" style="border-bottom: 2.5px solid black;">PROJECTS</h1>
+                    <!-- 시작 -->
+                    <div class="masonry" style="position: relative; height: 2888.25px;">
+
+                        <div class="grid-sizer"></div>
+
+                        <article class="masonry__brick entry format-standard"
+                            style="position: absolute; left: 0%; top: 0px;">
+
+                            <div class="entry__thumb">
+                                <a href="./Dedicats.html" class="entry__thumb-link">
+                                    <img src="../img/Dedicats/DedicatsThumnail.jpg"
+                                        srcset="../img/Dedicats/DedicatsThumnail.jpg 1x, ../img/Dedicats/DedicatsThumnail.jpg 2x"
+                                        alt="Dedicats">
+                                </a>
+                            </div>
+
+                            <div class="entry__text">
+                                <div class="entry__header">
+
+                                    <h2 class="entry__title"><a href="./Dedicats.html">Dedicats</a></h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a>Server</a>
+                                            <a>Team Member</a>
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <a>01/2020 ~ 02/2020</a>
+                                        </span>
+                                        <br>
+                                        <span>
+                                            길 고양이 돌봄 커뮤니티 모바일 애플리케이션
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <span>개발환경</span>
+                                    <ul>
+                                        <li>Client : react-Native, mobX</li>
+                                        <li>Server : express, typeScript, typeORM</li>
+                                        <li>DB : MariaDB</li>
+                                        <li>Deployment : AWS EC2, RDS, Expo</li>
+                                        <li>OS : Linux</li>                                      
+                                    </ul>
+                                </div>
+                                <a class="btn btn--stroke full-width" href="./Dedicats.html">More Detail</a>
+                            </div>
+
+                        </article>
+                        <article class="masonry__brick entry format-standard"
+                            style="position: absolute; left: 0%; top: 0px;">
+
+                            <div class="entry__thumb">
+                                <a href="./InSSa.html" class="entry__thumb-link">
+                                    <img src="../img/InSSA/InSSA.png"
+                                        srcset="../img/InSSA/InSSA.png 1x, ../img/InSSA/InSSA.png 2x"
+                                        alt="inSSa">
+                                </a>
+                            </div>
+
+                            <div class="entry__text">
+                                <div class="entry__header">
+
+                                    <h2 class="entry__title"><a href="./InSSa.html">InSSA</a></h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a>Front</a>
+                                            <a>Team Leader</a>
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <a >01/2020 ~ 01/2020</a>
+                                        </span>
+                                        <br>
+                                        <span>
+                                            동호회 만남 웹 어플리테이션 : 소모임 앱 클로닝
+                                        </span>
+                                    </div>
+
+                                </div>
+                                <div class="entry__excerpt">
+                                    <span>개발환경</span>
+                                    <ul>
+                                        <li>Client : react-hook, typescript</li>
+                                        <li>Server : express, typeScript, typeORM</li>
+                                        <li>DB : MySQL</li>
+                                        <li>Deployment : Docker</li>
+                                        <li>OS : Linux</li>                                      
+                                    </ul>
+                                </div>
+                                <a class="btn btn--stroke full-width" href="./InSSa.html">More Detail</a>
+                            </div>
+
+                        </article>
+                        <article class="masonry__brick entry format-standard"
+                            style="position: absolute; left: 0%; top: 0px;">
+
+                            <div class="entry__thumb">
+                                <a href="./Eeum.html" class="entry__thumb-link">
+                                    <img src="../img/Eeum/main.jpg"
+                                        srcset="../img/Eeum/main.jpg 1x, ../img/Eeum/main.jpg 2x"
+                                        alt="inSSa">
+                                </a>
+                            </div>
+
+                            <div class="entry__text">
+                                <div class="entry__header">
+
+                                    <h2 class="entry__title"><a href="single-standard.html">Eeum</a></h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a>Solo Project</a>
+                                            <!-- <a href="category.html">Photography</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <a>01/2020 ~ 01/2020</a>
+                                        </span>
+                                        <br>
+                                        <span>
+                                            그룹웨어(Groupware) 프로그램
+                                        </span>
+                                    </div>
+
+                                </div>
+                                <div class="entry__excerpt">
+                                    <span>개발환경</span>
+                                    <ul>
+                                        <li>Client : JSP, JSTL, AJAX, JQuery</li>
+                                        <li>Server : JAVA, Apache Mave, Apache Tomcat</li>
+                                        <li>Framework : SpringFramework, Bootstrap, Mybatis</li>
+                                        <li>DB : Oracle</li>
+                                        <li>OS : window</li>                                      
+                                    </ul>
+                                </div>
+                                <a class="btn btn--stroke full-width" href="./Eeum.html">More Detail</a>
+                            </div>
+
+                        </article>
+                        <article class="masonry__brick entry format-standard"
+                            style="position: absolute; left: 0%; top: 0px;">
+
+                            <div class="entry__thumb">
+                                <a href="./FarmerRecipe.html" class="entry__thumb-link">
+                                    <img src="../img/FarmerRecipe/main.png"
+                                        srcset="../img/FarmerRecipe/main.png 1x, ../img/FarmerRecipe/main.png 2x"
+                                        alt="">
+                                </a>
+                            </div>
+
+                            <div class="entry__text">
+                                <div class="entry__header">
+
+                                    <h2 class="entry__title"><a href="./FarmerRecipe.html">Farmer Recipe</a></h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a>Full stack</a>
+                                            <A>Team Member</a>
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <a>01/2020 ~ 01/2020</a>
+                                        </span>
+                                        <br>
+                                        <span>
+                                            농산물 직거래 중개 및 농부 블로깅 사이트
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <span>개발환경</span>
+                                    <ul>
+                                        <li>Client : JSP, JQuery</li>
+                                        <li>Server : JAVA, JDBC, Apache Tomcat</li>
+                                        <li>DB : Oracle</li>
+                                        <li>OS : window</li>                                      
+                                    </ul>
+                                </div>
+                                <a class="btn btn--stroke full-width" href="FarmerRecipe.html">More Detail</a>
+                            </div>
+
+                        </article>
+
+                    </div>
+                    <!-- 끝 -->
+                </div>
+            </div>
+            <div class="row section-intro add-bottom">
+                <div class="column large-full">
+                    <h1 class="display-1" style="border-bottom: 2.5px solid black;">SKILLS</h1>
+                    <div class="row">
+                        <div class="column large-4">
+                            <h3 style="margin-top: 2rem;">Strong</h3>
+                            <table>
+                                <tr>
+                                    <td><i class="fab fa-node"></i></td>
+                                    <td>node.JS</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fab fa-js-square"></i></td>
+                                    <td>javaScript, typeScript</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fab fa-java"></i></td>
+                                    <td>Java, Spring FrameWork</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-database"></i></td>
+                                    <td>RDBMS</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-project-diagram"></i></td>
+                                    <td>typeORM</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="column large-4">
+                            <h3 style="margin-top: 2rem;">Intermediate</h3>
+                            <table>
+                                <tr>
+                                    <td><i class="fab fa-react"></i></td>
+                                    <td>React</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="far fa-file-code"></i></td>
+                                    <td>JQeury</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fab fa-git-alt"></i></td>
+                                    <td>Git</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fab fa-ubuntu"></i></td>
+                                    <td>linux - ubuntu</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="column large-4">
+                            <h3 style="margin-top: 2rem;">Basic</h3>
+                            <table>
+                                <tr>
+                                    <td><i class="fas fa-project-diagram"></i></td>
+                                    <td>mobX</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fab fa-cuttlefish"></i></td>
+                                    <td>C</td>
+                                </tr>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row section-intro add-bottom">
+                <div class="column large-full">
+                    <h1 class="display-1" style="border-bottom: 2.5px solid black;">EXPERIENCE</h1>
+                    <h2 style="margin-top: 2rem;">Logistics Purchase</h2>
+                    <span style="color:gray">물류 센터 소모품 및 필요 자재 구매 업무 담당</span><br>
+                    <b style="margin-top: 1rem; color: navy;">Coupang</b><br>
+                    <i class="far fa-calendar" style="margin-right: 3rem;"> 08/2017 ~11/2018</i>
+                    <i class="fas fa-map-marker"> Seoul, Korea</i>
+                    <ul>
+                        <li>매일 본사와 벤더 , 물류 센터의 사이에서 의견을 조율하며 복합적 커뮤니케이션 주도</li>
+                        <li>데이터 기반 운영 시스템 하 상품 파손 데이터 분석 및 SQL 활용으로 유통 과정의 의사 결정 지원</li>
+                        <li>VBA 를 통한 자발적인 업무 자동화 , 작업자의 작업 효율성 2 배 이상 상승</li>
+                        <li>물류 운영 시스템 개선을 위한 개발자들과의 협업 경험</li>
+                    </ul>
+
+                </div>
+            </div> -->
+            <div class="row section-intro add-bottom">
+                <div class="column large-full">
+                    <h1 class="display-1" style="border-bottom: 2.5px solid black;">TRAINING / COURSES / EDUCATION</h1>
+                    <div class="row">
+                        <div class="column large-4">
+                            <h3 style="margin-top: 2rem;">코드스테이츠 <a href="https://codestates.com/courses/immersive"><i
+                                        class="fas fa-link"></i></a></h3>
+                            <p style="color: gray; margin-bottom: 0;">Advanced Software Engineering, Immersive Program
+                            </p>
+                            <i class="far fa-calendar"> 11/2019 ~ 02/2020</i>
+                        </div>
+                        <div class="column large-4">
+                            <h3 style="margin-top: 2rem;">자바(Java) 프레임워크<br>개발자 양성과정</h3>
+                            <p style="color: gray; margin-bottom: 0">Java and Spring curriculum from basic to advanced
+                                courses</p>
+                            <i class="far fa-calendar"> 02/2019 ~ 09/2019</i>
+                        </div>
+                        <div class="column large-4">
+                            <h3 style="margin-top: 2rem;">단국대학교</h3>
+                            <p style="color: gray; margin-bottom: 0">경제학 전공</p>
+                            <i class="far fa-calendar"> 03/2013 ~ 07/2018</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row section-intro add-bottom">
+                <div class="class= column large-full">
+                    <h1 class="display-1" style="border-bottom: 2.5px solid black;">Get In touch</h1>
+                    <form name="contactForm" action="https://formspree.io/xgeyqrdq" id="contactForm" method="post" autocomplete="off">
+                        <fieldset>
+
+                            <div class="form-field">
+                                <input name="cName" id="cName" class="full-width" placeholder="Your Name" value=""
+                                    type="text">
+                            </div>
+
+                            <div class="form-field">
+                                <input name="cEmail" id="cEmail" class="full-width" placeholder="Your Email" value=""
+                                    type="text">
+                            </div>
+                            <div class="message form-field">
+                                <textarea name="cMessage" id="cMessage" class="full-width"
+                                    placeholder="Your Message"></textarea>
+                            </div>
+
+                            <input name="submit" id="submit" class="btn btn--primary btn-wide btn--large full-width"
+                                value="Send Message" type="submit">
+
+                        </fieldset>
+                    </form>
+                    <script>
+
+                        window.addEventListener("DOMContentLoaded", function () {
+
+                            // get the form elements defined in your form HTML above
+
+                            const form = document.getElementById("contactForm");
+                            const button = document.getElementById("submit");
+                            const status = document.getElementById("cMessage");
+
+                            // Success and Error functions for after the form is submitted
+
+                            function success() {
+                                form.reset();
+                                button.style = "display: none ";
+                                status.innerHTML = "메일이 성공적으로 보내졌습니다. 감사합니다!";
+                            }
+
+                            function error() {
+                                window.alert('메일 서버에 에러가 있습니다.');
+                            }
+
+                            // handle the form submission event
+
+                            form.addEventListener("submit", function (ev) {
+                                ev.preventDefault();
+                                var data = new FormData(form);
+                                ajax(form.method, form.action, data, success, error);
+                            });
+                        });
+
+                        // helper function for sending an AJAX request
+
+                        function ajax(method, url, data, success, error) {
+                            var xhr = new XMLHttpRequest();
+                            xhr.open(method, url);
+                            xhr.setRequestHeader("Accept", "application/json");
+                            xhr.onreadystatechange = function () {
+                                if (xhr.readyState !== XMLHttpRequest.DONE) return;
+                                if (xhr.status === 200) {
+                                    success(xhr.response, xhr.responseType);
+                                } else {
+                                    error(xhr.status, xhr.response, xhr.responseType);
+                                }
+                            };
+                            xhr.send(data);
+                        }
+
+                    </script>
+                </div>
+            </div>
+
+        </div> <!-- end s-content -->
+
+
+        <!-- footer
+        ================================================== -->
+        <footer class="s-footer">
+            <div class="row">
+                <div class="column large-full footer__content">
+                    <div class="footer__copyright">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"></a>
+            </div>
+        </footer>
+
+    </div> <!-- end s-wrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
+
+</body>
