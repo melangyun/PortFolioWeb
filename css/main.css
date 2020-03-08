@@ -3004,9 +3004,54 @@ body.search-is-visible {
   display: none;
 }
 
+/* 앵커부분.. 새로만든!*/
+.anchor > ul {
+  margin: auto;
+  padding: 0;
+  list-style: none;
+}
+
+.anchor > ul > li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.anchor > ul > li:hover{
+  font-weight: bold;
+}
+
+.anchor > ul > li > a{
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: .5s;
+  color: white;
+}
+
+
+.anchor{
+  z-index: 1;
+  position: fixed;
+  width: 140px;
+  right: 2rem;
+  top:2rem;
+  
+  padding:.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: .7s;
+}
+
+.anchor:hover{
+  background-color: rgb(20,20,20);
+}
+
 /* ------------------------------------------------------------------- 
  * ## go to top
  * ------------------------------------------------------------------- */
+
 .go-top {
   z-index: 1;
   opacity: 0;
@@ -3017,6 +3062,7 @@ body.search-is-visible {
   position: fixed;
   bottom: 4rem;
   right: 2rem;
+  text-align: center;
 }
 
 .go-top a,
@@ -3084,6 +3130,11 @@ body.search-is-visible {
   .go-top {
     bottom: 0;
     right: 0;
+  }
+
+  .anchor{
+    right: 0;
+    top:78px;
   }
 
 }

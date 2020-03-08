@@ -94,33 +94,255 @@
 
                     <div class="media-wrap entry__media">
                         <div class="entry__post-thumb">
-                            <img src="images/thumbs/single/standard/standard-1000.jpg" srcset="images/thumbs/single/standard/standard-2000.jpg 2000w, 
-                                         images/thumbs/single/standard/standard-1000.jpg 1000w, 
-                                         images/thumbs/single/standard/standard-500.jpg 500w"
-                                sizes="(max-width: 2000px) 100vw, 2000px" alt="">
+                            <img src="https://images.unsplash.com/photo-1478098711619-5ab0b478d6e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                                alt="">
                         </div>
                     </div>
-
                     <div class="content__page-header entry__header">
                         <h1 class="display-1 entry__title">
-                            Dedicats
+                            Dedicats [Server]
                         </h1>
                         <ul class="entry__header-meta">
                             <li class="author">By <a href="#0">Codestake Team</a></li>
                             <li class="date">02, 2020</li>
-                            <li class="cat-links">
-                                <a href="#0"></a>
-                            </li>
                         </ul>
                     </div> <!-- end entry__header -->
+                    <div class="entry__content">
+                        <p> 길고양이 돌봄 커뮤니티, 모바일 애플리케이션입니다.</p>
+                        <div id="stack" class="entry__pagenav" style="margin-top: 0;"">
+                            <div class=" row" style="margin-top: 3em;">
+                            <div class="column large-4 tab-full">
+                                <h1>Stacks</h1>
+                            </div>
+                            <div class="column large-6 tab-full">
+                                <ul style="list-style: none;">
+                                    <li>Express</li>
+                                    <li>TypeScript</li>
+                                    <li>TypeORM</li>
+                                    <li>JWT</li>
+                                    <li>AWS_EC2</li>
+                                    <li>mobX</li>
+                                    <li>MariaDB</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="contribution" class="entry__pagenav">
+                        <h1>Contribution</h1>
+                        <ul>
+                            <li>JWT이용, access token, refresh toeken의 개념으로 자동로그인, 로그인 유지 구현</li>
+                            <li>MVC패턴과 비즈니스 로직을 담당하는 Service 레이어로 관심사를 명확히 분리하여 유지 보수 용이성과 코드 가독성 향상</li>
+                            <li>일괄적인 에러와 예외 핸들링을 하도록 리펙토링하여 디버깅 시간 감소 및 클라이언트와의 효율적인 의사소통</li>
+                            <li>유저, 게시글, 댓글부분 CRUD 구현. 고양이 정보 부분에서 Spatial Query(공간쿼리문)활용</li>
+                            <li>회원가입, 로그인, 로그인 유지 및 유저 인증 절차를 위한 클라이언트 MobX 사용 및 react-nativee 경험</li>
+                            <li>데이터 베이스 주도적 작성, API문서 플랜 및 작성</li>
+                        </ul>
+                    </div>
+                    <div id="fileTree" class="entry__pagenav">
+                        <div class="row">
+                            <div class="column large-3 tab-full">
+                                <img
+                                    src="https://user-images.githubusercontent.com/52588452/76145711-4b892f80-60cf-11ea-8268-30d636cfb348.png" />
+                            </div>
+                            <div  class="column large-9 tab-full">
+                                <h2>Server - File Tree</h2>
+                                <p>
+                                    MVC 패턴을 베이스로 (router, Controller, Service, Model) 구성하였습니다.<br>
+                                    library는 모듈화 된 파일들이, types에는 enum type들이 존재합니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="db" class="entry__pagenav">
+                        <h1>DB 설계 <a href="https://www.erdcloud.com/d/Ppy7ru3pgGP6mhgfc"><i class="fas fa-link"></i></a>
+                        </h1>
+                        <img
+                            src="https://user-images.githubusercontent.com/52588452/75363443-761fff00-58fd-11ea-8231-ae9cab329a0f.png" />
+                    </div>
+                    <div  id="api"  class="entry__pagenav">
+                        <a href="https://www.notion.so/joesnotuon/Project-Dedicats-API-Document-4883570a67b64a0c81d23f3bfee31d74">
+                            <h1>API문서 <i class="fas fa-link"></i>
+                        </a></h1>
+                    </div>
+                    <div  id="preview" class="entry__pagenav">
+                        <h1>시연</h1>
+                        <h2>회원가입</h2>
+                        <p style="margin-bottom: 0;">유효한 이메일 주소를 입력하면, 인증 이메일이 전송됩니다. 코드가 일치 할 때 회원가입이 승인됩니다.
+                        </p>
+                        <div class="row" style="margin-bottom: 10em;">
+                            <div class="column large-6 tab-full">
+                                <img
+                                    src="https://user-images.githubusercontent.com/53066365/75255064-b65f7e80-5824-11ea-8356-6e0340d4d1a9.gif" />
+                            </div>
+                            <div class="column large-6 tab-full">
+                                <img
+                                    src="https://user-images.githubusercontent.com/53066365/75255227-eeff5800-5824-11ea-821a-de4c254755b1.jpg" />
+                            </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 10em;">
+                            <div class="column large-6 tab-full">
+                                <img
+                                    src="https://user-images.githubusercontent.com/53066365/75256388-beb8b900-5826-11ea-8994-aa144d30442e.gif">
+                            </div>
+                            <div class="column large-6 tab-full">
+                                <h2>로그인</h2>
+                                <p>최초 로그인 후 로그인 유지가 됩니다.<br>성공적으로 로그인 후 서비스 메인화면으로 안내됩니다.</p>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 10em;">
+                            <div class="column large-6 tab-full">
+                                <img
+                                    src="https://user-images.githubusercontent.com/53066365/75258237-8070c900-5829-11ea-92f4-767a1c4d41e9.gif" />
+                            </div>
+                            <div class="column large-6 tab-full">
+                                <h2>고양이 등록</h2>
+                                <p>사진을 업로드 하고, 고양이 별명과 종, 설명, 중성화 여부를 선택하면 고양이가 추가됩니다.<br>정상 등록 후엔 등록 위치에서 고양이를
+                                    찾을 수
+                                    있습니다.</p>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 10em;">
+                            <div class="column large-6 tab-full">
+                                <img
+                                    src="https://user-images.githubusercontent.com/53066365/75258300-9aaaa700-5829-11ea-8aac-15ff11fe941f.gif" />
+                            </div>
+                            <div class="column large-6 tab-full">
+                                <h2>고양이 BIO</h2>
+                                <p>오늘의 건강상태를 업데이트 하고, 해시 태그를 입력 할 수 있습니다.<br> 중성화여부에 투표 할 수 있고, 고양이가 보이지 않는다면 실종
+                                    신고도
+                                    할 수
+                                    있습니다.</p>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 10em;">
+                            <div class="column large-6 tab-full">
+                                <img
+                                    src="https://user-images.githubusercontent.com/53066365/75259352-3983d300-582b-11ea-81ac-6b08ccac6273.gif" />
+                            </div>
+                            <div class="column large-6 tab-full">
+                                <h2>고양이 게시물</h2>
+                                <p>고양이 바이오에서, 고양이 게시물과 게시물에 댓글을 달아 이용자들과 의사소통 할 수있습니다.<br>댓글은 socket.io로 구현되어
+                                    실시간
+                                    소통이
+                                    가능합니다.</p>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 10em;">
+                            <div class="column large-6 tab-full">
+                                <img
+                                    src="https://user-images.githubusercontent.com/53066365/75260620-3ab5ff80-582d-11ea-8728-a58bece2df2c.gif" />
+                            </div>
+                            <div class="column large-6 tab-full">
+                                <h2>마이페이지, 문의하기, 비밀번호 변경</h2>
+                                <p>마이페이지에서 유저의 프로필을 변경하고, 팔로잉 중인 고양이를 확인 할 수 있습니다.<br>비밀번호 수정과 문의하기, 로그아웃이
+                                    가능합니다.<br>비밀번호를 잃어버렸을 때 임시비밀번호를 재발급 받을 수 있습니다.</p>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 10em;">
+                            <div class="column large-6 tab-full">
+                                <img
+                                    src="https://user-images.githubusercontent.com/53066365/75260620-3ab5ff80-582d-11ea-8728-a58bece2df2c.gif" />
+                            </div>
+                            <div class="column large-6 tab-full">
+                                <h2>비밀번호 찾기</h2>
+                                <p>비밀번호를 잃어버렸을 경우, 비밀번호를 임시비밀번호를 재 발급 받을 수 있습니다.<br>임시비밀번호로 로그인시, 비밀번호를 변경페이지로
+                                    안내됩니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <table id="git">
+                        <thead>
+                            <th>GitHub Link</th>
+                            <th></th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    서버 GitHub
+                                </td>
+                                <td>
+                                    <a href="https://github.com/rlcjf0014/DediCats_Server"><i class="fab fa-github">
+                                            github.com/rlcjf0014/DediCats_Server</i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    클라이언트 GitHub
+                                </td>
+                                <td>
+                                    <a href="https://github.com/naseriansuzie/DediCats_Client"><i class="fab fa-github">
+                                            github.com/naseriansuzie/DediCats_Client</i></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
 
-                </article> <!-- end column large-full entry-->
+                    <div id="dev" class=" row" style="margin-top: 10em; margin-bottom: 0;">
+                        <div class="column large-4 tab-full" style="text-align: center;">
+                            <h1>Dev Log</h1>
+                            <span>Link</span>
+                        </div>
+                        <div class="column large-6 tab-full">
+                            <ol style="list-style: none;">
+                                <li><a
+                                        href="https://github.com/melangyun/Y-s-TIL/blob/master/project_4wks/DevLog/1_%EA%B8%B0%ED%9A%8D.md">기획</a>
+                                </li>
+                                <li><a
+                                        href="https://github.com/melangyun/Y-s-TIL/blob/master/project_4wks/DevLog/2_200201_server%20project%20setting.md">2002021_server_project
+                                        setting</a></li>
+                                <li><a
+                                        href="https://github.com/melangyun/Y-s-TIL/blob/master/project_4wks/DevLog/3_200203_create%20DataBase.md">200203_create
+                                        DataBase</a></li>
+                                <li><a
+                                        href="https://github.com/melangyun/Y-s-TIL/blob/master/project_4wks/DevLog/4_200207_Router%20code%2080%25%20complete.md">200207_Router
+                                        code 80% complete</a></li>
+                                <li><a
+                                        href="https://github.com/melangyun/Y-s-TIL/blob/master/project_4wks/DevLog/5_200208-200212_User%20Authentication%20Server.md">200208_User_Auth_Server</a>
+                                </li>
+                                <li><a
+                                        href="https://github.com/melangyun/Y-s-TIL/blob/master/project_4wks/DevLog/6_200213-200219%20User_Authentication_Front.md">20203_User_Auth_Front</a>
+                                </li>
+                                <li><a
+                                        href="https://github.com/melangyun/Y-s-TIL/blob/master/project_4wks/DevLog/7_200220-200223%20Server%20Refactoring%2C%20debugging.md">200220_Server
+                                        Refactoring,debugging</a></li>
+                            </ol>
+                        </div>
 
-        </div> <!-- end comments-wrap -->
-        </main>
+                    </div>
+
+        </div>
+        </article> <!-- end column large-full entry-->
+
+    </div> <!-- end comments-wrap -->
+    </main>
 
     </div> <!-- end s-content -->
+    <footer class="s-footer">
+        <div class="row">
+            <div class="column large-full footer__content">
+                <div class="footer__copyright">
 
+                </div>
+            </div>
+        </div>
+        <div class="anchor">
+            <ul style="list-style: none;">
+                <li style="margin-top: 60px;"><a href="#stack">stack</a></li>
+                <li><a href="#contribution">contribution</a></li>
+                <li><a href="#fileTree">File Tree</a></li>
+                <li><a href="#db">DB</a></li>
+                <li><a href="#api">API</a></li>
+                <li><a href="#preview">preview</a></li>
+                <li><a href="#git">Git</a></li>
+                <li style="margin-bottom: 60px;"><a href="#dev">Dev Log</a></li>
+            </ul>
+        </div>
+
+        <div class="go-top link-is-visible">
+            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+    </footer>
 
     <!-- Java Script
     ================================================== -->
